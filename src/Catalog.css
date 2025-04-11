@@ -1,0 +1,56 @@
+/* Catalog.css */
+
+.catalog {
+    padding: 24px;
+}
+
+.catalog__title {
+    font-size: 1.875rem;
+    /* text-3xl */
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.catalog__item {
+    width: 192px;
+    /* w-48 */
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out;
+    color: inherit;
+}
+
+.catalog__item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.catalog__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.catalog__name {
+    font-size: 1.125rem;
+    /* text-lg */
+    font-weight: 600;
+}
+
+.catalog__author {
+    font-size: 0.875rem;
+    /* text-sm */
+    color: #6b7280;
+    /* примерно как text-gray-500 */
+}

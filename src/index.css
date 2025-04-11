@@ -1,0 +1,59 @@
+/* index.css */
+
+/* Сброс стандартных стилей браузера */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Для всех элементов на странице — использование современного шрифта */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+
+/* Стили для корневого контейнера */
+html,
+body {
+    height: 100%;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Базовый стиль для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Общее для всех кнопок */
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+/* Стили для контейнера приложения */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
