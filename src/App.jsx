@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Catalog from "./catalog";
-import BookDetails from "./BookDetails";
-import Favorites from "./Favorites";
-import Profile from "./Profile";
-import NotFound from "./NotFound";
+import Catalog from "./components/Catalog/Catalog";
+import BookDetails from "./components/BookDetails/BookDetails";
+import Favorites from "./components/Favorites/Favorites";
+import Profile from "./components/Profile/Profile";
+import NotFound from "./components/NotFound/NotFound";
 
 const App = () => {
   return (
