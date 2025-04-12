@@ -57,3 +57,27 @@ button {
     flex-direction: column;
     min-height: 100%;
 }
+
+/* Стили для навигации */
+nav {
+    background-color: white;
+    padding: 16px 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    font-weight: 500;
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #007bff;
+}
