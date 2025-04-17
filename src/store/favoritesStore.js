@@ -12,7 +12,5 @@ export const useFavoritesStore = create((set, get) => ({
         : [...favorites, book],
     });
   },
-  isFavorite: (bookId) => {
-    return get().favorites.some((fav) => fav.id === bookId);
-  },
+ 
 }));

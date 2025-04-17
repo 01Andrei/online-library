@@ -18,8 +18,8 @@
 }
 
 .catalog__item {
+    position: relative;
     width: 192px;
-    /* w-48 */
     padding: 16px;
     background-color: white;
     border-radius: 16px;
@@ -31,6 +31,23 @@
 
 .catalog__item:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.catalog__favButton {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fbbf24;
+    /* желтенькая звезда */
+}
+
+.catalog__link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .catalog__image {

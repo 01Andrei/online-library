@@ -26,6 +26,9 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .author {
@@ -45,4 +48,14 @@
     margin-top: 100px;
     font-size: 1.5rem;
     color: #888;
+}
+
+.favButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fbbf24;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 8px;
 }
